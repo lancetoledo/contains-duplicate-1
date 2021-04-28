@@ -7,6 +7,7 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 let nums = [1, 2, 3, 4];
 
+// Has a O(n^2) time complexity because it uses TWO loops (not optimal)
 function findDupe(arr) {
   let count = 0;
   for (let i = 0; i < arr.length; i++) {
